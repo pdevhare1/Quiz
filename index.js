@@ -88,7 +88,7 @@ submitBtn.addEventListener("click", () => {
   currentQuestion++;
 
   if (currentQuestion === quizdata.length) {
-    quiz.innerText =  
+    quiz.innerHTML =  
       `<h1>Your score is ${quizScore} out of ${quizdata.length}</h1>
       <button onclick="location.reload()">Reload</button>
       `;
